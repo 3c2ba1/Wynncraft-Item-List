@@ -1,16 +1,14 @@
 html {
+	margin: none;
 	height: 100%;
+	width: 100%;
 }
 
 body {
 	height: 100%;
-	width: 100vw;
+	width: 100%;
 	top: 0;
 	left: 0;
-	margin-right: 0;
-	margin-left: 0;
-	margin-top: 0;
-	margin-bottom 0;
 	display: block;
 	font-size: 18px;
 	letter-spacing: 0.02em;
