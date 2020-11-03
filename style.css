@@ -11,10 +11,12 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
+	margin: none;
+	padding: none;
 }
 
 .box {
-	height: calc(100vh - 20px;
+	height: calc(100vh - 20px);
 	top: 0;
 	left: 0;
 	margin: none;
@@ -29,6 +31,8 @@ body {
 	z-index: 1;
 	content: '';
 	position: absolute;
+	margin: none;
+	padding: none;
 }
 
 .box::after {
@@ -37,9 +41,14 @@ body {
 	z-index: 1;
 	content: '';
 	position: absolute;
+	margin: none;
+	padding: none;
 }
 
 ul {
+	margin: none;
+	padding-top: none;
+	padding-bottom: none;
 	padding-right: 50px;
 	padding-left: 50px;
 	animation: scrollUp 200s infinite forwards;
