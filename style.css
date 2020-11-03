@@ -11,6 +11,8 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
+  height: 100%;
+  overflow: hidden;
 }
 
 ul {
@@ -23,7 +25,6 @@ ul {
 	animation-timing-function: linear;
 	height: 13100px;
 	list-style-type: none;
-	overflow: hidden;
 }
 
 @keyframes scrollUp {
