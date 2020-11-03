@@ -13,7 +13,6 @@ body {
     font-size: 18px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    background-color: green;
 }
 
 .box {
@@ -21,7 +20,6 @@ body {
     margin: auto;
     overflow: hidden;
     position: relative;
-    background-color: green;
 }
 
     .box::before {
