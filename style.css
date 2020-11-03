@@ -11,8 +11,8 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
-  height: 100%;
-  overflow: hidden;
+  	height: 100%;
+  	overflow: hidden;
 }
 
 ul {
@@ -29,7 +29,7 @@ ul {
 
 @keyframes scrollUp {
 	from {
-		transform: translateY(-500);
+		transform: translateY(500);
 	}
 	to {
 		transform: translateY(-13100px);
