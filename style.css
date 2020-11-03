@@ -52,6 +52,6 @@ ul {
     }
 
     to {
-        transform: translateY(13100px);
+        transform: translateY(-13100px);
     }
 }
