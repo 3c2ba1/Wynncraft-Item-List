@@ -16,7 +16,7 @@ body {
 }
 
 .box {
-	height: calc(100vh - 20px);
+	height: calc(100% - 20px);
 	top: 0;
 	left: 0;
 	margin: none;
