@@ -1,0 +1,64 @@
+﻿html {
+    height: 100%;
+}
+
+:root {
+    --item-count: 6;
+    --item: 1 / var(--item-count);
+}
+
+body {
+    height: 100%;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.box {
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+    .box::before {
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        content: '';
+        height: 100px;
+        position: absolute;
+    }
+
+    .box::after {
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        content: '';
+        height: 100px;
+        position: absolute;
+    }
+
+ul {
+    padding-top: 250px;
+    padding-right: 50px;
+    padding-bottom: 2500px;
+    padding-left: 50px;
+    animation: scrollUp 25s infinite forwards;
+    animation-timing-function: linear;
+    height: 13100px;
+    list-style-type: none;
+}
+
+@keyframes scrollUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(calc((-100% / var(--item-count)) * (var(--item-count) - 1)));
+    }
+}
