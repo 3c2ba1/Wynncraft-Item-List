@@ -23,7 +23,7 @@ body {
         z-index: 1;
         width: 100%;
         content: '';
-        height: 100px;
+        height: 0px;
         position: absolute;
     }
 
@@ -33,7 +33,7 @@ body {
         z-index: 1;
         width: 100%;
         content: '';
-        height: 100px;
+        height: 0px;
         position: absolute;
     }
 
