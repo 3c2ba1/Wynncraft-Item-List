@@ -19,7 +19,7 @@ ul {
 	padding-bottom: none;
 	padding-right: 50px;
 	padding-left: 50px;
-	animation: scrollUp 200s infinite forwards;
+	animation: scrollUp 30s infinite forwards;
 	animation-timing-function: linear;
 	height: 13100px;
 	list-style-type: none;
