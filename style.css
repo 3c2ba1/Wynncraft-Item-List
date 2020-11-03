@@ -4,6 +4,9 @@ html {
 
 body {
     height: 100%;
+    width: 100;
+    top: 0;
+    left: 0;
     display: block;
     font-size: 18px;
     letter-spacing: 0.02em;
@@ -11,19 +14,18 @@ body {
 }
 
 .box {
-    top: 0;
-    bottom: 0;
     height: 100%;
+    top: 0;
+    left: 0;
     margin: none;
     overflow: hidden;
-    position: relative;
+    position: absolute;
 }
 
     .box::before {
         top: 0;
         left: 0;
         z-index: 1;
-        width: 100%;
         content: '';
         position: absolute;
     }
@@ -32,9 +34,7 @@ body {
         left: 0;
         bottom: 0;
         z-index: 1;
-        width: 100%;
         content: '';
-        height: 0px;
         position: absolute;
     }
 
