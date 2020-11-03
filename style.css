@@ -11,6 +11,7 @@ body {
 }
 
 .box {
+    top: 0;
     height: 100%;
     margin: none;
     overflow: hidden;
