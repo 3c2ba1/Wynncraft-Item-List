@@ -23,11 +23,12 @@ ul {
 	animation-timing-function: linear;
 	height: 13100px;
 	list-style-type: none;
+	overflow: hidden;
 }
 
 @keyframes scrollUp {
 	from {
-		transform: translateY(0);
+		transform: translateY(-500);
 	}
 	to {
 		transform: translateY(-13100px);
