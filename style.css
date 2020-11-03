@@ -16,7 +16,7 @@ body {
 }
 
 .box {
-    height: 1000px;
+    height: 100vh;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -43,9 +43,7 @@ body {
     }
 
 ul {
-    padding-top: 250px;
     padding-right: 50px;
-    padding-bottom: 2500px;
     padding-left: 50px;
     animation: scrollUp 25s infinite forwards;
     animation-timing-function: linear;
