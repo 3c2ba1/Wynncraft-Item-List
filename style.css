@@ -1,58 +1,57 @@
 html {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    height: 100%;
-    width: 100;
-    top: 0;
-    left: 0;
-    display: block;
-    font-size: 18px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+	height: 100%;
+	width: 100;
+	top: 0;
+	left: 0;
+	display: block;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
 }
 
 .box {
-    height: 100%;
-    top: 0;
-    left: 0;
-    margin: none;
-    overflow: hidden;
-    position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: none;
+	overflow: hidden;
+	position: absolute;
 }
 
-    .box::before {
-        top: 0;
-        left: 0;
-        z-index: 1;
-        content: '';
-        position: absolute;
-    }
+.box::before {
+	top: 0;
+	left: 0;
+	z-index: 1;
+	content: '';
+	position: absolute;
+}
 
-    .box::after {
-        left: 0;
-        bottom: 0;
-        z-index: 1;
-        content: '';
-        position: absolute;
-    }
+.box::after {
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	content: '';
+	position: absolute;
+}
 
 ul {
-    padding-right: 50px;
-    padding-left: 50px;
-    animation: scrollUp 200s infinite forwards;
-    animation-timing-function: linear;
-    height: 13100px;
-    list-style-type: none;
+	padding-right: 50px;
+	padding-left: 50px;
+	animation: scrollUp 200s infinite forwards;
+	animation-timing-function: linear;
+	height: 13100px;
+	list-style-type: none;
 }
 
 @keyframes scrollUp {
-    from {
-        transform: translateY(0);
-    }
-
-    to {
-        transform: translateY(-13100px);
-    }
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(-13100px);
+	}
 }
