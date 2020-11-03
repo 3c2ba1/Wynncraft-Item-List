@@ -17,10 +17,11 @@ body {
 }
 
 .box {
-    height: 800px;
+    height: 1000px;
     margin: auto;
     overflow: hidden;
     position: relative;
+    background-color: green;
 }
 
     .box::before {
