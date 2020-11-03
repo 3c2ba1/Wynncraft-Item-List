@@ -16,7 +16,7 @@ body {
 }
 
 .box {
-    height: 100vh;
+    height: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
